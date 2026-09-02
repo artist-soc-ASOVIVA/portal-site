@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASOVIVA-Official-PortalSite</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>  <!-- Swiper_CDN -->
+    <link rel="icon" href="./img/main_imgs/asoviva_logo_favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="main_header">
+      <nav class="main_nav">
+        <a href="./index.html" class="logo_link">
+          <div class="logo"><img src="./img/main_imgs/asoviva_logo.png" alt="ASOVIVAlogo"></div>
+        </a>
+
+      <!--スマホ用メニュー  -->
+      <input type="checkbox" id="menu_input" class="menu_input">
+      <label for="menu_input" class="menu_btn">
+        <div class="rotating_text">
+          <svg viewBox="0 0 100 100">
+            <path id="circlePath" d="M 50, 50 m -38, 0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0" fill="none"/>
+            <text font-size="9.2" font-weight="bold">
+              <textPath xlink:href="#circlePath">
+                • ASOVIVA OFFICIAL SITE • ASOVIVA OFFICIAL SITE •
+              </textPath>
+            </text>>
+          </svg>
+        </div>
+        <div class="hamburger_lines">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </label>
+
+        <!-- メガメニュー -->
+        <ul class="main_goods_menu">
+          <li class="goods_dropdown">
+            <a href="#" class="goods_nav">各種商品</a>
+
+            <div class="mega_menu_container">
+              <div class="mega_menu_inner">
+                <div class="menu_column">
+                  <div class="menu_title">
+                    <span class="icon">グッズ販売</span>
+                  </div>
+                  <ul class="goods_menu">
+                    <li><a href="./comic-city-fukuoka64.html">Comic City福岡64</a></li>
+                    <li><a href="./comic-city-fukuoka63.html">Comic City福岡63</a></li>
+                    <li><a href="./comic-city-fukuoka62.html">Comic City福岡62</a></li>
+                  </ul>
+                </div>
+
+                <div class="menu_column">
+                  <div class="menu_title">
+                    <span class="icon">デジタルゲーム</span>
+                  </div>
+                  <ul class="digitalgames_munu">
+                    <li><a href="./setunagame.html">刹那の「ワタシモイレテヨ」斬り</a></li>
+                    <li><a href="./runrungame.html">ルンルンのだぁいすき！ラッシュ！！</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li><a href="./event.html">イベント情報</a></li>
+          <li><a href="./notice.html">お知らせ</a></li>
+          <li>クリエイター</li>
+          <li class="sns_item">
+            <a href="https://x.com/Asoviva2024" target="_blank" class="ASOVIVA_SNS">
+              <span class="sns_text">公式SNS</span>
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- 1.スライドショー -->
+      <section class="swiper_visual">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./img/main_imgs/banner1.png" alt="バナー1"></div>
+              <div class="swiper-slide"><img src="./img/main_imgs/banner2.png" alt="バナー2"></div>
+              <div class="swiper-slide"><img src="./img/main_imgs/banner3.png" alt="バナー3"></div>
+              <div class="swiper-slide"><img src="./img/main_imgs/banner4.png" alt="バナー4"></div>
+              <div class="swiper-slide"><img src="./img/main_imgs/banner5.png" alt="バナー5"></div>
+              <div class="swiper-slide"><img src="./img/main_imgs/banner6.png" alt="バナー6"></div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+
+      <!-- 2.ASOVIVAとは -->
+      <section class="asoviva_info">
+        <img src="./img/main_imgs/asoviva_logo.png" alt="ASOVIVAロゴ" class="asoviva_info_logo">
+        <p class="info_text">
+          イラストが好きな仲間たちで結成した合同サークル「Asoviva」です<br>
+          好きなものを、好きなように制作をモットーに活動中。
+          二次創作グッズやオリジナルゲームを制作中
+        </p>
+      </section>
+
+      <!-- 3.ピックアップ商品 -->
+      <section class="Pick_up_section">
+        <div>
+
+        </div>
+      </section>
+
+      <!-- 4.ニュース,イベント情報 -->
+      <section>
+
+      </section>
+
+      <!-- 共通フッター -->
+       <footer>
+
+       </footer>
+    </main>
+
+
+
+
+    <!-- 外部ファイル -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script> <!-- Swiper_CDN -->
+    <script src="./js/main.js"></script>
+    <script src="https://kit.fontawesome.com/8bec611dcb.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
