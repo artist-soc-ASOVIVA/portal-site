@@ -1,3 +1,3 @@
-# Asoviva サイト
+# Asoviva ポータルサイト
 ## URL
 https://artist-soc-asoviva.github.io/portal-site/
