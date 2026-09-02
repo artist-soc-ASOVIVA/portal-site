@@ -1,0 +1,6 @@
+plugins:
+<<<<<<< HEAD
+  - jekyll-sitemap
+=======
+ - jekyll-sitemap
+>>>>>>> dev_portal_site
